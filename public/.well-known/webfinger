@@ -1,12 +1,12 @@
 {
   "aliases": [
-    "https://sdlay.github.io/users/ylay"
+    "https://sdlay.netlify.app/users/ylay"
   ],
   "links": [
     {
-      "href": "https://daniellay.cc/user-info/ylay/actor",
       "rel": "self",
-      "type": "application/activity+json"
+      "type": "application/activity+json",
+      "href": "https://sdlay.netlify.app/user-info/ylay/actor.json"
     }
   ],
   "subject": "acct:ylay@sdlay.github.io"

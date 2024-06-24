@@ -1,6 +1,6 @@
 {
   "@context": "https://www.w3.org/ns/activitystreams",
-  "id": "https://sdlay.github.io/user-info/ylay/following.json",
+  "id": "https://sdlay.netlify.app/user-info/ylay/following.json",
   "type": "OrderedCollection",
   "totalItems": 0,
   "orderedItems": []
