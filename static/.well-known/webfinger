@@ -5,8 +5,7 @@
   "links": [
     {
       "rel": "self",
-      "type": "application/ld+json",
-      "profile": "https://www.w3.org/ns/activitystreams",
+      "type": "application/activity+json",
       "href": "https://sdlay.github.io/user-info/ylay/actor.json"
     }
   ],
