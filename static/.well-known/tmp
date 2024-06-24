@@ -4,9 +4,9 @@
   ],
   "links": [
     {
+      "href": "https://daniellay.cc/user-info/ylay/actor",
       "rel": "self",
-      "type": "application/ld+json",
-      "profile": "https://www.w3.org/ns/activitystreams"
+      "type": "application/activity+json"
     }
   ],
   "subject": "acct:ylay@sdlay.github.io"
