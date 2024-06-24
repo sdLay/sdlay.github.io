@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "https://daniellay.cc/u/dlay"
+  ],
+  "links": [
+    {
+      "href": "https://daniellay.cc/u/dlay",
+      "rel": "self",
+      "type": "application/activity+json"
+    }
+  ],
+  "subject": "acct:dlay@daniellay.cc"
+}
