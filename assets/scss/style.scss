@@ -10,3 +10,11 @@
 body {
     font-family: $font-stack;
 }
+
+.page-body-container {
+    margin: 5%;
+
+    & > * {
+        margin: 20px;
+    }
+}

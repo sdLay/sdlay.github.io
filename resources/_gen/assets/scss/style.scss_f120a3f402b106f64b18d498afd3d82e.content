@@ -9,3 +9,8 @@
 
 body {
   font-family: "Lato", "Space Grotesk", "Roboto", "Helvectica", "Arial"; }
+
+.page-body-container {
+  margin: 5%; }
+  .page-body-container > * {
+    margin: 20px; }
