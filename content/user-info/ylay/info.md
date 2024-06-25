@@ -1,3 +1,8 @@
+---
+title: "Info"
+outputs:
+  - ActivityJson
+---
 {
   "@context": [
   	"https://www.w3.org/ns/activitystreams", 

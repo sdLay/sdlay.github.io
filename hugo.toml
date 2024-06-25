@@ -2,3 +2,13 @@ baseURL = 'https://sdlay.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 publishDir = "docs"
+
+[mediaTypes]
+[mediaTypes."application/activity+json"]
+suffixes = ["json"]
+
+[outputFormats]
+[outputFormats.ActivityJson]
+mediaType = "application/activity+json"
+baseName = "info"
+isPlainText = true
