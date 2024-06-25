@@ -6,7 +6,7 @@
 		{
 			"rel": "self",
 			"type": "application/activity+json",
-			"href": "https://sdlay.github.io/user-info/ylay/info.json"
+			"href": "https://sdlay.github.io/user-info/ylay/info"
 		}
 	],
 	"subject": "acct:ylay@sdlay.github.io"
