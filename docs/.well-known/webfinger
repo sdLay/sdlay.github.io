@@ -5,7 +5,7 @@
 	"links": {
 		"rel": "self",
 		"type": "application/activity+json",
-		"href": "https://sdlay.github.io/user-info/ylay/info"
+		"href": "https://sdlay.github.io/user-info/ylay/info.json"
 	}
 	"subject": "acct:ylay@sdlay.github.io"
 }
