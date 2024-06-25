@@ -1,6 +1,6 @@
 {
 	"@context": "https://www.w3.org/ns/activitystreams", 
-	"id": "https://sdlay.github.io/user-info/ylay/inbox", 
+	"id": "https://sdlay.github.io/user-info/ylay/inbox.json", 
 	"orderedItems": [], 
 	"totalItems": 0, 
 	"type": "OrderedCollection"

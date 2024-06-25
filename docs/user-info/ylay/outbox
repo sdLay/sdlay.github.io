@@ -1,7 +1,0 @@
-{
-	"@context": "https://www.w3.org/ns/activitystreams", 
-	"id": "https://sdlay.github.io/user-info/ylay/outbox", 
-	"orderedItems": [], 
-	"totalItems": 0, 
-	"type": "OrderedCollection"
-}
