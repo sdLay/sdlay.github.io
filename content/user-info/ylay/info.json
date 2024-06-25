@@ -1,12 +1,8 @@
----
-title: "Info"
-outputs:
-  - ActivityJson
----
 {
+  "Content-Type": "application/activity+json",
   "@context": [
-  	"https://www.w3.org/ns/activitystreams", 
-  	{ "@language": "en- GB" }
+    "https://www.w3.org/ns/activitystreams", 
+    { "@language": "en- GB" }
   ],
   "type": "Person",
   "id": "https://sdlay.github.io/user-info/ylay/info.json",

@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 publishDir = "docs"
 
+[outputs]
+	page = [ 'html', 'activity+json']
+	
 [mediaTypes]
 [mediaTypes."application/activity+json"]
 suffixes = ["json"]

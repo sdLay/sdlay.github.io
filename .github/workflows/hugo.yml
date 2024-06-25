@@ -47,7 +47,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: |
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -57,10 +58,10 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./docs
+      - name: Modify info.json for Content-Type
+        run: |
+          echo '{ "Content-Type": "application/activity+json", "@context": "https://www.w3.org/ns/activitystreams", "type": "Person", "id": "https://sdlay.github.io/user-info/ylay/info.json", "outbox": "https://sdlay.github.io/user-info/ylay/outbox.json", "following": "https://sdlay.github.io/user-info/ylay/following.json", "followers": "https://sdlay.github.io/user-info/ylay/followers.json", "inbox": "https://sdlay.github.io/user-info/ylay/inbox.json", "preferredUsername": "ylay", "name": "ylay", "summary": "basic summary of ylay", "icon": [], "publicKey": { "@context": "https://w3id.org/security/v1", "@type": "Key", "id": "https://sdlay.github.io/user-info/ylay/info.json#main-key", "owner": "https://sdlay.github.io/user-info/ylay/info.json", "publicKeyPem": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAp3XLiZyeJ4T4ZeykXT/HkDC4kKcA8B0wf27HEa4pEUH7GGICkvSN\nfXvM7lxLYvysfswg4beG7qIR3ZZfhal+QY+fozxC2M6K8ujsGFa38H+rOK24t+Js\nQZ9zvJdRNbQ00sxRu0LRDrht5gdMwTbp0WvNeQFqJRGGBY5lwOh4DFXEAMhzlU7H\nJ1xINCVrDUTRhUsTrStKLe8PlQ5xfMdPJ33fL1G1t9VJALc+ckgZCXyqpGu3yc+b\nnBzq+WPBSVmtQ+GOohx6FsF1vgxafoxoFrCBaH7nyKsxPsgWj7fPpi5r27K6fk8D\nFZ31poUMO6dKfXinmP5WKCO9xJDdZK504QIDAQAB\n-----END RSA PUBLIC KEY-----\n" }' > ./public/user-info/ylay/info.json
+        working-directory: ./docs  # Adjust if your build output directory is different
 
   # Deployment job
   deploy:
@@ -73,3 +74,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
