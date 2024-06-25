@@ -1,11 +1,14 @@
+
 {
 	"aliases": [
 		"https://sdlay.github.io/users/ylay"	
 	], 
-	"links": {
-		"rel": "self",
-		"type": "application/activity+json",
-		"href": "https://sdlay.github.io/user-info/ylay/info.json"
-	}
+	"links": [
+		{
+			"rel": "self",
+			"type": "application/activity+json",
+			"href": "https://sdlay.github.io/user-info/ylay/info.json"
+		}
+	],
 	"subject": "acct:ylay@sdlay.github.io"
 }
