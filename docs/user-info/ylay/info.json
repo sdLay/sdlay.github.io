@@ -1,12 +1,20 @@
 {
-  "@context": "https://www.w3.org/ns/activitystreams",
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ],
   "type": "Person",
-  "id": "https://sdlay.github.io/user-info/ylay/info",
-  "name": "Ylay",
+  "id": "https://sdlay.github.io/user-info/ylay/info.json",
+  "name": "ylay",
   "preferredUsername": "ylay",
   "summary": "A user profile for Ylay.",
-  "inbox": "https://sdlay.github.io/user-info/ylay/inbox",
-  "outbox": "https://sdlay.github.io/user-info/ylay/outbox",
-  "following": "https://sdlay.github.io/user-info/ylay/following",
-  "followers": "https://sdlay.github.io/user-info/ylay/followers"
+  "inbox": "https://sdlay.github.io/user-info/ylay/inbox.json",
+  "outbox": "https://sdlay.github.io/user-info/ylay/outbox.json",
+  "following": "https://sdlay.github.io/user-info/ylay/following.json",
+  "followers": "https://sdlay.github.io/user-info/ylay/followers.json",
+  "publicKey": {
+    "id": "https://sdlay.github.io/user-info/ylay/info.json#key", 
+    "owner": "https://sdlay.github.io/user-info/ylay/info.json", 
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAurv0Q2ws5JkE5Lj2he2a\nlZDZtMZeiPuNj4QFo9nYjlSz44uhFB7jZeHQ8FhaNHyzDSjzZYri/0L13Z9sQigy\nFVivsRMBL1C3pemM+lprDWPikT8jBFQyJtmCY98WV6zY2YbdgQHx9ndNm84cRxNZ\nTnPbW7e8DRvrpfr2XSj1qTVvjNYXrahz2P5QIpAyOOX7nN6sKHV9LKLVsintuWm1\nSZia1+vHKDSqpY5CWgAfKVdLlTxK1ePVL0/nYxoZE8GhMJwYv21SsvZZg2FuZMa5\nN8PyU665Rz3DI5vlL8E3MuwKIGBRntUKutTBeUBj/3BES9zmqQO+3tK/d0pcBa9N\nHQIDAQAB\n-----END PUBLIC KEY-----\n"
+  }, 
 }

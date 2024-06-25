@@ -1,0 +1,8 @@
+{
+	"@context": "https://www.w3.org/ns/activitystreams", 
+	"attributedTo": "https://sdlay.github.io/user-info/ylay/info.json", 
+	"id": "https://sdlay.github.io/user-info/ylay/outbox.json", 
+	"orderedItems": [], 
+	"totalItems": 0, 
+	"type": "OrderedCollection"
+}
