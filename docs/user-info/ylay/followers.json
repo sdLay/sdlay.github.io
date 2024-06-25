@@ -1,6 +1,6 @@
 {
 	"@context": "https://www.w3.org/ns/activitystreams", 
-	"attributedTo": "https://sdlay.github.io/user-info/ylay/info.json", 
+	"attributedTo": "https://sdlay.github.io/user-info/ylay/info", 
 	"id": "https://sdlay.github.io/user-info/ylay/followers.json", 
 	"orderedItems": [], 
 	"totalItems": 0, 
