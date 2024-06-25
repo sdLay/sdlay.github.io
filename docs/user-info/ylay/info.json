@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://www.w3.org/ns/activitystreams",
+    "https://www.w3.org/ns/activitystreams"
   ],
   "type": "Person",
   "id": "https://sdlay.github.io/user-info/ylay/info.json",
