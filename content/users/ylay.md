@@ -1,10 +1,10 @@
 +++
-title = 'Ylay'
-date = 2024-06-24T11:53:39+10:00
+title = "ylay's profile"
+date = 2024-06-25T14:36:10+10:00
 draft = false
 +++
 
-# YLAY's Profile
+# ylay's profile
 
-Welcome to my profile!
-Follow me on [ActivityPub](https://sdlay.github.io/user-info/ylay/actor)
+Warm welcome! 
+- Author: ylay
