@@ -20,4 +20,4 @@
       "template": "https://mastodon.social/authorize_interaction?uri={uri}"
     }
   ]
-}
+} 
