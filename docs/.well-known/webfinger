@@ -1,13 +1,13 @@
 {
   "aliases": [
-    "https://sdlay.github.io/users/ylay"
+    "https://daniellay.cc/u/dlay"
   ],
   "links": [
     {
+      "href": "https://daniellay.cc/u/dlay",
       "rel": "self",
-      "type": "application/activity+json",
-      "href": "https://sdlay.github.io/user-info/ylay/info.json"
+      "type": "application/activity+json"
     }
   ],
-  "subject": "acct:ylay@sdlay.github.io"
+  "subject": "acct:dlay@daniellay.cc"
 }
